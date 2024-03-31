@@ -25,6 +25,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import freelancer from "./company/freelancer.png";
+import javan from "./company/javan.png";
+import orbit from "./company/orbit.jpeg";
+
+import smasrtore from "./project/smasrtore.png";
+import arjuna from "./project/arjuna.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -32,6 +38,9 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  orbit,
+  smasrtore,
+  arjuna,
   backend,
   creator,
   mobile,
@@ -59,4 +68,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  freelancer,
+  javan,
 };

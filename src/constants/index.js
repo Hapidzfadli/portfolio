@@ -17,7 +17,12 @@ import {
   docker,
   meta,
   starbucks,
+  orbit,
+  javan,
+  freelancer,
+  arjuna,
   tesla,
+  smasrtore,
   shopify,
   carrent,
   jobit,
@@ -46,7 +51,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,7 +59,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Machine Learning Engineer",
     icon: creator,
   },
 ];
@@ -116,26 +121,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Freelance Programmer",
+    company_name: "Freelancer",
+    icon: freelancer,
+    iconBg: "#FFFFFF",
+    date: "Sep 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using PHP and other related technologies.",
+      "Custom Template Content Management System (CMS) WordPress and Create Plugin WordPress.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Intern Web Developer",
+    company_name: "Javan Cipta Solusi",
+    icon: javan,
+    iconBg: "#FFF",
+    date: "Aug 2023 ‐ Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Laravel and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -143,28 +147,30 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Javan Cipta Solusi",
+    icon: javan,
+    iconBg: "#FFF",
+    date: "Sep 2023 ‐ Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Laravel, React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Optimized Eloquent/Query Builder queries.",
+      "Built modular features, sidestepping cognitive complexity.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "MSIB Artificial Intelligence 4 Jobs",
+    company_name: "Orbit Kampus",
+    icon: orbit,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2023 - Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing mechine learning applications using Flask and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learn Artificial Intelligence, Machine Learning, Data Science",
+      "Learn Flask and basic Python",
     ],
   },
 ];
@@ -198,16 +204,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Smart Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform to analyze customer purchasing patterns and increase store sales. Using machine learning predictive analysis technology",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "flask",
         color: "green-text-gradient",
       },
       {
@@ -215,16 +221,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: smasrtore,
+    source_code_link: "https://github.com/Hapidzfadli/smart-ai",
   },
   {
-    name: "Job IT",
+    name: "Booking Movie Ticket",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based application development project that aims to make it easier for prospective cinema ticket buyers to purchase and manage tickets.",
     tags: [
       {
-        name: "react",
+        name: "laravel",
         color: "blue-text-gradient",
       },
       {
@@ -236,8 +242,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: arjuna,
+    source_code_link: "https://github.com/Hapidzfadli/prakweb_a_tubes_arjuna_tiket_bioskop",
   },
   {
     name: "Trip Guide",
